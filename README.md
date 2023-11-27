@@ -1,2 +1,2 @@
 # IcsFromMailbox
-Export a calendar from Exchange mailbox and convert it into an iCalendar file
+Export a calendar from Exchange mailbox and convert it into an iCalendar file (PowerShell)
