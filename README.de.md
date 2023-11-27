@@ -1,4 +1,6 @@
 *Read this in other languages: [English](README.md)*
+# IcsFromMailbox
+Export a calendar from Exchange mailbox and convert it into an iCalendar file (PowerShell)
 
 ## Idee und Hintergrund
 Für eine WordPress-Installtion soll mit Hilfe eines [Plug-Ins](https://de.wordpress.org/plugins/ics-calendar/) ein Kalender aus einen Microsoft Exchange 2019 (On-premises) dargestellt werden.
