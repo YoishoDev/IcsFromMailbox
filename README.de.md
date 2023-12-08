@@ -19,7 +19,7 @@ Da ich nichts Passendes (im Ganzen) gefunden habe, hier nun ein Variante mit Kom
 Lange Zeit habe ich damit verbracht, das die erzeugte ICS-Datei die Validätsprüfung bestand. Die Inhalte waren immer ok, nur die Datei "hatte etwas" am Anfang. 
 Ich habe bis heute keine richtige Erklärung für das Verhalten :confused:.
 
-**Ein weiteres offenes Problem ist, dass die Ausführung des Skripts nur unter Windows 10 funktioniert, aber nicht auf einem (beliebigen) Serverbetriebsystem. 
+**Ein weiteres offenes Problem ist, dass die Ausführung des Skripts nur unter Windows 10 funktioniert, aber nicht auf einem (beliebigen) Microsoft-Serverbetriebsystem. 
 Dort wird vom Exchange-Server immer folgender Fehler zurückgegeben: "Der Remoteserver hat einen Fehler zurückgegeben: (401) Nicht autorisiert.".
 Im Exchange-Server wird dann "Audit_Failure 4624, 0xc000035b" geloggt.**
 
