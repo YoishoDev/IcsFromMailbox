@@ -1,7 +1,7 @@
 *Read this in other languages: [English](README.md)*
 
 # IcsFromMailbox
-Einen Kalender (Ereignisse) aus einem Microsft Exchange System laden und in eine iCalendar datei umwandeln (PowerShell).
+Einen Kalender (Ereignisse) aus einem öffentlichen Ordner Microsoft Exchange System laden und in eine iCalendar Datei umwandeln (PowerShell).
 
 ## Idee und Hintergrund
 Für eine WordPress-Installtion soll mit Hilfe eines [Plug-Ins](https://de.wordpress.org/plugins/ics-calendar/) ein Kalender aus einen Microsoft Exchange 2019 (On-premises) dargestellt werden.
@@ -16,8 +16,12 @@ Da ich nichts Passendes (im Ganzen) gefunden habe, hier nun ein Variante mit Kom
 - Umwandeln in eine ICS-Datei
 - Ablage in der WordPress-Installation
 
-Lange Zeit habe ich damit verbracht, das die erzeugte ICS-Datei die Validätsprüfung bestand. Die Inhalte waren imemr ok, nur die Datei "hatte etwas" am Anfang. 
+Lange Zeit habe ich damit verbracht, das die erzeugte ICS-Datei die Validätsprüfung bestand. Die Inhalte waren immer ok, nur die Datei "hatte etwas" am Anfang. 
 Ich habe bis heute keine richtige Erklärung für das Verhalten :confused:.
+
+**Ein weiteres offenes Problem ist, dass die Ausführung des Skripts nur unter Windows 10 funktioniert, aber nicht auf einem (beliebigen) Serverbetriebsystem. 
+Dort wird vom Exchange-Server immer folgender Fehler zurückgegeben: "Der Remoteserver hat einen Fehler zurückgegeben: (401) Nicht autorisiert.".
+Im Exchange-Server wird dann "Audit_Failure 4624, 0xc000035b" geloggt.**
 
 Vielleicht dienen die Skripte ja jemanden als Anregung für ähnliche "Probleme" und ersparen damit lange und evtl. erfolglose Suchen.
 
