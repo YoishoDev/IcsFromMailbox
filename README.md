@@ -19,6 +19,10 @@ Since I didn't find anything suitable (as a whole), here's a variant with combin
 I spent a long time ensuring that the generated ICS file passed the validity check. The contents were always ok, only the file "had something" at the beginning.
 To this day I don't have a proper explanation for the behavior :confused:.
 
+**Another open issue is that running the script only works on Windows 10, but not on (any) server operating system.
+The Exchange server always returns the following error: "The remote server returned an error: (401) Unauthorized.".
+“Audit_Failure 4624, 0xc000035b” is then logged in the Exchange server.**
+
 Perhaps the scripts will serve as a suggestion for someone to solve similar "problems" and thus save them from long and possibly unsuccessful searches.
 
 ## Wishes, criticism, errors, comments, suggestions for improvement...
