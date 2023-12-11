@@ -105,7 +105,7 @@ Function ReportError($Context)
 function LogToFile([String]$EventType,[string]$Details)
 {
 	if ( [String]::IsNullOrEmpty($LogFile) ) { return }
-	$logTime = Get-Date -Format dd.mm.yyyy-hh:MM:ss
+	$logTime = Get-Date -Format dd.MM.yyyy-hh:mm:ss
     $logInfo = "$logTime $EventType `"$Details`""
     if ($FastFileLogging)
     {
